@@ -170,37 +170,81 @@ function writePassword() {
       specialPassword
     ) {
       var passArray = lower.concat(upper, numbers, specialChars);
-      console.log(passArray);
+      var randomPass = "";
+      for (var i = 0; i < passLength; i++) {
+        randomPass += passArray[i];
+        return randomPass;
+      }
     } else if (lowercasePassword && numcasePassword && specialPassword) {
       var passArray = lower.concat(numbers, specialChars);
-      console.log(passArray);
+      var randomPass = "";
+      for (var i = 0; i < passLength; i++) {
+        randomPass += passArray[i];
+        return randomPass;
+      }
     } else if (lowercasePassword && specialPassword) {
       var passArray = lower.concat(specialChars);
-      console.log(passArray);
+      var randomPass = "";
+      for (var i = 0; i < passLength; i++) {
+        randomPass += passArray[i];
+        return randomPass;
+      }
     } else if (uppercasePassword && numcasePassword && specialPassword) {
       var passArray = upper.concat(numbers, specialChars);
-      console.log(passArray);
+      var randomPass = "";
+      for (var i = 0; i < passLength; i++) {
+        randomPass += passArray[i];
+        return randomPass;
+      }
     } else if (uppercasePassword && numcasePassword) {
       var passArray = upper.concat(numbers);
-      console.log(passArray);
+      var randomPass = "";
+      for (var i = 0; i < passLength; i++) {
+        randomPass += passArray[i];
+        return randomPass;
+      }
     } else if (uppercasePassword && specialPassword) {
       var passArray = upper.concat(specialChars);
-      console.log(passArray);
+      var randomPass = "";
+      for (var i = 0; i < passLength; i++) {
+        randomPass += passArray[i];
+        return randomPass;
+      }
     } else if (numcasePassword && specialPassword) {
       var passArray = numbers.concat(specialChars);
-      console.log(passArray);
+      var randomPass = "";
+      for (var i = 0; i < passLength; i++) {
+        randomPass += passArray[i];
+        return randomPass;
+      }
     } else if (lowercasePassword) {
       var passArray = lower;
-      console.log(passArray);
+      var randomPass = "";
+      for (var i = 0; i < passLength; i++) {
+        randomPass += passArray[i];
+        return randomPass;
+      }
     } else if (uppercasePassword) {
       var passArray = upper;
-      console.log(passArray);
+      var randomPass = "";
+      for (var i = 0; i < passLength; i++) {
+        randomPass += passArray[i];
+        return randomPass;
+      }
     } else if (numcasePassword) {
       var passArray = numbers;
-      console.log(passArray);
+      var randomPass = "";
+      for (var i = 0; i < passLength; i++) {
+        randomPass += passArray[i];
+        return randomPass;
+      }
     } else if (specialPassword) {
       var passArray = specialChars;
-      console.log(passArray);
+      var randomPass = "";
+      for (var i = 0; i < passLength; i++) {
+        randomPass += passArray[i];
+        return randomPass;
+      }
     }
   };
 
