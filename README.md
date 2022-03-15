@@ -14,8 +14,6 @@
 
 ## Preview
 
-[Screenshot]
-
 ## Description
 
 ## Built-with
@@ -26,7 +24,7 @@
 
 ## Website
 
-- URL
+-
 
 ## Feedback
 

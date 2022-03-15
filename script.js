@@ -172,84 +172,139 @@ function writePassword() {
       var passArray = lower.concat(upper, numbers, specialChars);
       var randomPass = "";
       for (var i = 0; i < passLength; i++) {
-        randomPass += passArray[i];
-        return randomPass;
+        randomPass += passArray[Math.floor(Math.random() * passArray.length)];
       }
+      console.log(randomPass + "this is random" + randomPass.length); //length of password is good!
+      console.log(passArray + "this is the array"); //all of the user's criteria in an array
+      console.log(passArray.length);
+      //console.logs for demonstration only. Will be removed in deployment
+      return randomPass;
     } else if (lowercasePassword && numcasePassword && specialPassword) {
       var passArray = lower.concat(numbers, specialChars);
       var randomPass = "";
       for (var i = 0; i < passLength; i++) {
-        randomPass += passArray[i];
-        return randomPass;
+        randomPass += passArray[Math.floor(Math.random() * passArray.length)];
       }
+      console.log(randomPass + "this is random" + randomPass.length); //length of password is good!
+      console.log(passArray + "this is the array"); //all of the user's criteria in an array
+      console.log(passArray.length);
+      //console.logs for demonstration only. Will be removed in deployment
+      return randomPass;
     } else if (lowercasePassword && specialPassword) {
       var passArray = lower.concat(specialChars);
       var randomPass = "";
       for (var i = 0; i < passLength; i++) {
-        randomPass += passArray[i];
-        return randomPass;
+        randomPass += passArray[Math.floor(Math.random() * passArray.length)];
       }
+      console.log(randomPass + "this is random" + randomPass.length); //length of password is good!
+      console.log(passArray + "this is the array"); //all of the user's criteria in an array
+      console.log(passArray.length);
+      //console.logs for demonstration only. Will be removed in deployment
+      return randomPass;
     } else if (uppercasePassword && numcasePassword && specialPassword) {
       var passArray = upper.concat(numbers, specialChars);
       var randomPass = "";
       for (var i = 0; i < passLength; i++) {
-        randomPass += passArray[i];
-        return randomPass;
+        randomPass += passArray[Math.floor(Math.random() * passArray.length)];
       }
+      console.log(randomPass + "this is random" + randomPass.length); //length of password is good!
+      console.log(passArray + "this is the array"); //all of the user's criteria in an array
+      console.log(passArray.length);
+      //console.logs for demonstration only. Will be removed in deployment
+      return randomPass;
     } else if (uppercasePassword && numcasePassword) {
       var passArray = upper.concat(numbers);
       var randomPass = "";
       for (var i = 0; i < passLength; i++) {
-        randomPass += passArray[i];
-        return randomPass;
+        randomPass += passArray[Math.floor(Math.random() * passArray.length)];
       }
+      console.log(randomPass + "this is random" + randomPass.length); //length of password is good!
+      console.log(passArray + "this is the array"); //all of the user's criteria in an array
+      console.log(passArray.length);
+      //console.logs for demonstration only. Will be removed in deployment
+      return randomPass;
     } else if (uppercasePassword && specialPassword) {
       var passArray = upper.concat(specialChars);
       var randomPass = "";
       for (var i = 0; i < passLength; i++) {
-        randomPass += passArray[i];
-        return randomPass;
+        randomPass += passArray[Math.floor(Math.random() * passArray.length)];
       }
+      console.log(randomPass + "this is random" + randomPass.length); //length of password is good!
+      console.log(passArray + "this is the array"); //all of the user's criteria in an array
+      console.log(passArray.length);
+      //console.logs for demonstration only. Will be removed in deployment
+      return randomPass;
     } else if (numcasePassword && specialPassword) {
       var passArray = numbers.concat(specialChars);
       var randomPass = "";
       for (var i = 0; i < passLength; i++) {
-        randomPass += passArray[i];
-        return randomPass;
+        randomPass += passArray[Math.floor(Math.random() * passArray.length)];
       }
+      console.log(randomPass + "this is random" + randomPass.length); //length of password is good!
+      console.log(passArray + "this is the array"); //all of the user's criteria in an array
+      console.log(passArray.length);
+      //console.logs for demonstration only. Will be removed in deployment
+      return randomPass;
     } else if (lowercasePassword) {
       var passArray = lower;
       var randomPass = "";
       for (var i = 0; i < passLength; i++) {
-        randomPass += passArray[i];
-        return randomPass;
+        randomPass += passArray[Math.floor(Math.random() * passArray.length)];
       }
+      console.log(randomPass + "this is random" + randomPass.length); //length of password is good!
+      console.log(passArray + "this is the array"); //all of the user's criteria in an array
+      console.log(passArray.length);
+      //console.logs for demonstration only. Will be removed in deployment
+      return randomPass;
     } else if (uppercasePassword) {
       var passArray = upper;
       var randomPass = "";
       for (var i = 0; i < passLength; i++) {
-        randomPass += passArray[i];
-        return randomPass;
+        randomPass += passArray[Math.floor(Math.random() * passArray.length)];
       }
+      console.log(randomPass + "this is random" + randomPass.length); //length of password is good!
+      console.log(passArray + "this is the array"); //all of the user's criteria in an array
+      console.log(passArray.length);
+      //console.logs for demonstration only. Will be removed in deployment
+      return randomPass;
     } else if (numcasePassword) {
       var passArray = numbers;
       var randomPass = "";
       for (var i = 0; i < passLength; i++) {
-        randomPass += passArray[i];
-        return randomPass;
+        randomPass += passArray[Math.floor(Math.random() * passArray.length)];
       }
+      console.log(randomPass + "this is random" + randomPass.length); //length of password is good!
+      console.log(passArray + "this is the array"); //all of the user's criteria in an array
+      console.log(passArray.length);
+      //console.logs for demonstration only. Will be removed in deployment
+      return randomPass;
     } else if (specialPassword) {
       var passArray = specialChars;
       var randomPass = "";
       for (var i = 0; i < passLength; i++) {
-        randomPass += passArray[i];
-        return randomPass;
+        randomPass += passArray[Math.floor(Math.random() * passArray.length)];
       }
+      console.log(randomPass + "this is random" + randomPass.length); //length of password is good!
+      console.log(passArray + "this is the array"); //all of the user's criteria in an array
+      console.log(passArray.length);
+      //console.logs for demonstration only. Will be removed in deployment
+      return randomPass;
     }
   };
 
   var password = generatePassword(results);
   passwordText.value = password;
+
+  var parent = document.getElementById("generate");
+  parent.innerHTML = "";
+
+  parent.setAttribute(
+    "style",
+    "background-color: rgb(8, 233, 8); font-size:25px;"
+  );
+
+  parent.innerHTML =
+    "Use this password to increase your Security!     Thanks for using and choosing your unique Random Password!~     [CLICK ME AGAIN IF YOU NEED A NEW / DIFFERENT PASSWORD! ]";
 }
 
 // Add event listener to generate button
