@@ -14,7 +14,7 @@
 
 ## Preview
 
-[image](./Assets/randomPass.png)
+![Screenshot](./Assets/randomPass.png)
 
 ## Description
 
